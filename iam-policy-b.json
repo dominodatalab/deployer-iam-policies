@@ -110,7 +110,10 @@
                 "elasticfilesystem:DeleteMountTarget",
                 "elasticfilesystem:DeleteFileSystem",
                 "elasticfilesystem:DescribeMountTargetSecurityGroups",
-                "elasticfilesystem:UpdateFileSystem"
+                "elasticfilesystem:UpdateFileSystem",
+                "elasticfilesystem:DescribeAccessPoints",
+                "elasticfilesystem:CreateAccessPoint",
+                "elasticfilesystem:DeleteAccessPoint"
             ],
             "Resource": "*"
         },
